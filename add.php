@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ];
     }
 
-    header("Location: index.php");  // Redirect back to list
+    header("Location: index.php");
     exit;
 }
 ?>
